@@ -1,0 +1,123 @@
+/* nav bar section  */
+
+:root {
+  --btn-color: #ff8906;
+  --btn-text-color: #fffffe;
+  --main-heading-color: #ff8906;
+  --sub-heading-color: #ffffff;
+  --section-color: #09162a;
+  --bg-footer-color: #09162a;
+}
+/* navbar section start*/
+div.logo img {
+  height: 60px;
+}
+.logo-second img {
+  height: 50px;
+}
+div p {
+  font-size: 14px;
+}
+.fa {
+  font-size: 20px;
+}
+
+/* First Navbar Styles */
+
+/* Second Navbar */
+.second-navbar {
+  /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative;
+  z-index: 999;
+}
+
+/* Fixed Second Navbar on Scroll */
+.second-navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Content */
+.content {
+  margin-top: 4rem; /* Add space for fixed navbar */
+  height: 200vh; /* For scrolling effect */
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/*
+/* secion start  */
+
+.section-header {
+  margin-bottom: 20px;
+}
+.section-header h2 {
+  font-weight: bold;
+}
+.project-info {
+  background-color: #ffc107;
+  padding: 15px;
+  border-radius: 5px;
+}
+.project-info p {
+  margin: 0;
+  font-weight: bold;
+}
+.work-scope ul {
+  list-style-type: none;
+  padding: 0;
+}
+.work-scope ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.work-scope ul li:before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+}
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* secion end  */
+
+/* FOOTER  SECTION */
+
+footer h6 {
+  color: #ff5b00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer div h6 p {
+  font-size: 15px;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .media img {
+  border-radius: 5px;
+}
+.fot {
+  background-color: var(--bg-footer-color);
+}
+/* footer section end  */

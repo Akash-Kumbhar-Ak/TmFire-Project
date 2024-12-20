@@ -1,0 +1,518 @@
+/* nav bar section  */
+
+:root {
+  --btn-color: #ff8906;
+  --btn-text-color: #fffffe;
+  --main-heading-color: #ff8906;
+  --sub-heading-color: #ffffff;
+  --section-color: #09162a;
+  --bg-footer-color: #09162a;
+}
+/* navbar section start*/
+div.logo img {
+  height: 60px;
+}
+.logo-second img {
+  height: 50px;
+}
+div p .p {
+  font-size: 10px;
+}
+.fa {
+  font-size: 20px;
+}
+
+/* First Navbar Styles */
+
+/* Second Navbar */
+.second-navbar {
+  /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative;
+  z-index: 999;
+}
+
+/* Fixed Second Navbar on Scroll */
+.second-navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Content */
+.content {
+  margin-top: 4rem; /* Add space for fixed navbar */
+  height: 200vh; /* For scrolling effect */
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* nav bar section end  */
+
+/* FOOTER  SECTION */
+
+footer h6 {
+  color: #ff5b00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer div h6 p {
+  font-size: 15px;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .media img {
+  border-radius: 5px;
+}
+.fot {
+  background-color: var(--bg-footer-color);
+}
+
+/* FOOTER  SECTION END  */
+/* machanical section start  */
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Banner Images */
+h2 {
+  font-size: 2.5rem;
+  color: blueviolet;
+  background-color: #e0a800;
+  margin-top: 15px;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #0056b3;
+}
+
+/* Contact Us Section */
+.contact-us {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.contact-us h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Specializations Section */
+.specializations {
+  margin-top: 40px;
+}
+
+.specializations h4 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Service Details Section */
+.card {
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  background-color: whitesmoke;
+  color: white;
+}
+
+.card-body {
+  background-color: #f1f1f1;
+}
+
+/* Free Consultation Section */
+.consultation-box {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.consultation-box h4 {
+  font-size: 1.5rem;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-dark {
+  background-color: orangered;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.row {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* machanical section end  */
+
+/* civil section start  */
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Banner Images */
+h2 {
+  font-size: 2.5rem;
+  color: blueviolet;
+  background-color: #e0a800;
+  margin-top: 15px;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #0056b3;
+}
+
+/* Contact Us Section */
+.contact-us {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.contact-us h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Specializations Section */
+.specializations {
+  margin-top: 40px;
+}
+
+.specializations h4 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Service Details Section */
+.card {
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  background-color: whitesmoke;
+  color: white;
+}
+
+.card-body {
+  background-color: #f1f1f1;
+}
+
+/* Free Consultation Section */
+.consultation-box {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.consultation-box h4 {
+  font-size: 1.5rem;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-dark {
+  background-color: orangered;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.row {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.img1 {
+  height: 350px;
+  width: 100%;
+}
+
+/* civil sectio end */
+
+/* material section  start*/
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 40%;
+  height: auto;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px whitesmoke;
+}
+
+.text-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.text-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(181, 224, 11, 0.722);
+}
+
+.text-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.text-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.benefit-list li {
+  margin-bottom: 0.5rem;
+}
+
+.image-and-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+.feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-description {
+  color: black;
+  font-size: 14px;
+}
+
+/* Hover Effect */
+.feature-box:hover {
+  border-color: #007bff;
+  background-color: goldenrod;
+  box-shadow: 0 8px 20px rgba(240, 56, 56, 0.1);
+  transform: translateY(-5px);
+}
+
+.feature-box:hover .feature-icon {
+  color: #007bff; /* Change the icon color on hover */
+}
+
+/* General Card Styling */
+.card {
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Active Card Styling */
+.active-card {
+  border-left: 5px solid #007bff;
+  background-color: #f9f9f9;
+}
+
+/* Card Hover Effects */
+.custom-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Header Styling */
+.card-header {
+  background-color: #fff;
+  color: #343a40;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Hover Animation */
+.card-header:hover {
+  background-color: #007bff;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* Collapse Animation */
+.collapse {
+  transition: all 0.4s ease-in-out;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  padding: 1rem;
+}
+
+/* material section end */
+
+/* Chemical section start  */
+.headingH2,
+.headingH4 {
+  color: white;
+  text-transform: uppercase; /* Makes the text uppercase */
+  letter-spacing: 1px; /* Adds space between letters */
+  margin-bottom: 15px; /* Adds space below headings */
+}
+.comment {
+  font-size: 1.1rem; /* Font size for paragraphs */
+  line-height: 1.6; /* Line height for better readability */
+  color: rgb(255, 255, 255); /* Dark gray color for text */
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+  margin-bottom: 15px; /* Adds space below paragraphs */
+}
+.contact .benefit-section {
+  background-color: #09162a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact .Chemical .img-fluid {
+  transition: transform 0.3s;
+}
+.Chemical .img-fluid:hover {
+  transform: scale(1.05);
+}
+.contact .Chemical .text-center {
+  margin-bottom: 20px;
+}
+.contact .btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Bold text for buttons */
+}
+.contact .btn-custom:hover {
+  background-color: #0056b3;
+}
+
+/* Chemical section end */

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriculture Section</title>
+    <link rel="stylesheet" href="/CSS/Electronic.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .section-header {
+        margin-bottom: 20px;
+      }
+      .section-header h2 {
+        font-weight: bold;
+      }
+      .project-info {
+        background-color: #ffc107;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .project-info p {
+        margin: 0;
+        font-weight: bold;
+      }
+      .work-scope ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .work-scope ul li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 10px;
+      }
+      .work-scope ul li:before {
+        content: "\f058";
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        left: 0;
+        color: #28a745;
+      }
+      .fade-in {
+        animation: fadeIn 2s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <section>
+      <div class="container-fluid">
+        <div class="container container1 d-none d-md-block p-3">
+          <div class="row">
+            <div class="col-3">
+              <div class="logo">
+                <!-- logo -->
+                <img src="/Photos/logo.png " alt="Logo" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block">
+              <div class="row">
+                <div
+                  class="col-sm-2 justify-content-center d-flex text-center p-3"
+                >
+                  <!-- location icon  -->
+                  <i class="fa fa-location-dot text-danger"></i>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12"><h6>Pune ,Maharatra</h6></div>
+                    <div class="col-12">
+                      <p>Chandani Chowk ,Kothrud Pune</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block">
+              <div class="row">
+                <div
+                  class="col-sm-2 justify-content-center d-flex text-center p-3"
+                >
+                  <!-- location icon  -->
+                  <i class="fa fa-envelope text-danger"></i>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-sm-12"><h6>email@gmail.com</h6></div>
+                    <div class="col-sm-12">
+                      <p>Office :09:00AM TO 05:00PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block">
+              <div class="row">
+                <div
+                  class="col-sm-2 justify-content-center d-flex text-center p-3"
+                >
+                  <!-- logo -->
+                  <i class="fa fa-phone text-danger"></i>
+                </div>
+                <div class="col-8">
+                  <div class="row">
+                    <div class="col-sm-12"><h6>+91 9876543211</h6></div>
+                    <div class="col-sm-12"><p>Call us for any query</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-navbar container2 bg-warning">
+          <nav class="navbar second-navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <div class="logo-second">
+              <img
+                src="/Photos/logo.png"
+                alt=""
+                srcset=""
+                class="img-fluid d-lg-none d-sm-none"
+              />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse justify-content-end nav-pills nav-fill navbar-collapse"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li
+                  class="nav-item active dropdown d-flex justify-content-center text-center"
+                >
+                  <a class="nav-link" href="#home">Home</a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#home"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><span class="sr-only">(current)</span></a
+                  >
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#what-we-do">What We Do ?</a>
+                    <a class="dropdown-item" href="#why-choose-us"
+                      >Why Choose Us ?</a
+                    >
+                    <a class="dropdown-item" href="#services">About Services</a>
+                    <a class="dropdown-item" href="#review">Client Review</a>
+                    <a class="dropdown-item" href="#work">How We Work</a>
+                    <a class="dropdown-item" href="#">Testimonial</a>
+                  </div>
+                </li>
+                <li
+                  class="nav-item dropdown d-flex justify-content-center text-center"
+                >
+                  <a class="nav-link" href="About.html">About</a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="About.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="About.html">
+                      Company History</a
+                    >
+                    <a class="dropdown-item" href="#">Expert Team</a>
+                    <a class="dropdown-item" href="#">Nature Of Company</a>
+                    <a class="dropdown-item" href="#">Gallery</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                  </div>
+                </li>
+                <li
+                  class="nav-item dropdown d-flex justify-content-center text-center"
+                >
+                  <a class="nav-link" href="Services.html">Services</a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="Services.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Mechanical Engineering</a>
+                    <a class="dropdown-item" href="#">Civil Engineering</a>
+                    <a class="dropdown-item" href="#">Chemical Engineering</a>
+                    <a class="dropdown-item" href="#">Material Engineering</a>
+                    <a class="dropdown-item" href="#">Power And Energy</a>
+                  </div>
+                </li>
+                <li
+                  class="nav-item dropdown d-flex justify-content-center text-center"
+                >
+                  <a class="nav-link" href="Product.html">Product</a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="Product.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"
+                      >Construction and Infrastructure</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Industrial Equipment and Machinery</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Electrical and Power Solutions</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Electronics and Communication</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Automotive and Aerospace</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Testing and Measurement Tools</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Software and Control Systems</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="nav-item dropdown d-flex justify-content-center text-center"
+                >
+                  <a class="nav-link" href="Contact.html">Contact Us</a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="Contact.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Client Reviews</a>
+                    <a class="dropdown-item" href="#">Quick Contact</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar End -->
+
+    <section class="container my-5 fade-in">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="/Photos/electronic.jpg"
+            alt="Agriculture"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="section-header">
+            <h2>Electronic project</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <p>
+            Etiam porttitor metus malesuada magna mollis euismod. Vivamus
+            egestas lacus vel augue laoreet rutrum faucibus dolor auctor.
+          </p>
+          <div class="project-info mt-4">
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Client: <span>Muchen Railway Co.</span></p>
+                <p>Skills: <span>Agricultural</span></p>
+                <p>Website: <a href="#">infoact.com</a></p>
+              </div>
+              <div class="col-sm-6">
+                <p>Project Start Date: <span>12.12.2017</span></p>
+                <p>Project End Date: <span>20.12.2017</span></p>
+                <p>Category: <span>Agricultural</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-8">
+          <h4>Electronic Process</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          </p>
+        </div>
+        <div class="col-md-4 work-scope">
+          <h4>Work Scope</h4>
+          <ul>
+            <li>Financial Responsibility for Our Clients</li>
+            <li>Superior Quality and Craftsmanship</li>
+            <li>Quality and Value to the Projects We Deliver</li>
+            <li>Highest Standards in Cost Control</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section start -->
+    <section>
+      <!-- Subscription Section -->
+      <div class="bg-orange bg-warning text-center py-4 text-white">
+        <div class="container">
+          <h5>
+            <i class="fas fa-newspaper"></i> Sign Up to get Latest Updates
+          </h5>
+          <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email address"
+                />
+                <div class="input-group-append">
+                  <button class="btn btn-dark">SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="fot text-white pt-5 pb-4">
+        <div class="container text-md-left">
+          <div class="row">
+            <!-- Company Logo & Description -->
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase font-weight-bold">
+                <img src="/Photos/logo.png" alt="Logo" class="mr-2" />
+              </h6>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature.
+              </p>
+              <p>
+                <i class="fas fa-map-marker-alt mr-2"></i>
+              </p>
+              <p><i class="fas fa-phone mr-2"></i> +91 9876543211</p>
+            </div>
+
+            <!-- Company Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase font-weight-bold">Company</h6>
+              <p><a href="#" class="text-white">About Us</a></p>
+              <p><a href="#" class="text-white">Company</a></p>
+              <p><a href="#" class="text-white">Press & Blog</a></p>
+              <p><a href="#" class="text-white">Privacy Policy</a></p>
+              <p><a href="#" class="text-white">FAQ</a></p>
+            </div>
+
+            <!-- Core Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase font-weight-bold">Core Link</h6>
+              <p><a href="#" class="text-white">About Us</a></p>
+              <p><a href="#" class="text-white">Company</a></p>
+              <p><a href="#" class="text-white">Press & Blog</a></p>
+              <p><a href="#" class="text-white">Privacy Policy</a></p>
+              <p><a href="#" class="text-white">FAQ</a></p>
+            </div>
+
+            <!-- Latest Posts -->
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase font-weight-bold">Latest Post</h6>
+              <div class="media mb-2">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="mr-3"
+                  alt="Post 1"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0">
+                    We are best for any industrial & business solution.
+                  </h6>
+                  <small>January 23, 2024</small>
+                </div>
+              </div>
+              <div class="media">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="mr-3"
+                  alt="Post 2"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0">
+                    We believe in long-lasting business relationships.
+                  </h6>
+                  <small>January 22, 2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-secondary" />
+          <!-- Social Media Links -->
+          <div class="text-center">
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+          <!-- Copyright -->
+          <div class="text-center mt-2">
+            <small>Copyright © 2024 All Rights Reserved. TmFire</small>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer section end -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

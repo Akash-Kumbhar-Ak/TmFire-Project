@@ -1,0 +1,81 @@
+/* nav bar section  */
+
+:root {
+  --btn-color: #ff8906;
+  --btn-text-color: #fffffe;
+  --main-heading-color: #ff8906;
+  --sub-heading-color: #ffffff;
+  --section-color: #09162a;
+  --bg-footer-color: #09162a;
+}
+/* navbar section start*/
+div.logo img {
+  height: 60px;
+}
+.logo-second img {
+  height: 50px;
+}
+div p {
+  font-size: 10px;
+}
+.fa {
+  font-size: 20px;
+}
+
+/* First Navbar Styles */
+
+/* Second Navbar */
+.second-navbar {
+  /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative;
+  z-index: 999;
+}
+
+/* Fixed Second Navbar on Scroll */
+.second-navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Content */
+.content {
+  margin-top: 4rem; /* Add space for fixed navbar */
+  height: 200vh; /* For scrolling effect */
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* nav bar section end  */
+
+/* FOOTER  SECTION */
+
+footer h6 {
+  color: #ff5b00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer div h6 p {
+  font-size: 15px;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .media img {
+  border-radius: 5px;
+}
+.fot {
+  background-color: var(--bg-footer-color);
+}
+/* footer section end  */
+
+/* FOOTER  SECTION END  */
