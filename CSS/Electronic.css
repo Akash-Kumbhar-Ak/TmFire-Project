@@ -1,0 +1,301 @@
+/* nav bar section  */
+
+:root {
+  --btn-color: #ff8906;
+  --btn-text-color: #fffffe;
+  --main-heading-color: #ff8906;
+  --sub-heading-color: #ffffff;
+  --section-color: #09162a;
+  --bg-footer-color: #09162a;
+}
+/* navbar section start*/
+div.logo img {
+  height: 60px;
+}
+.logo-second img {
+  height: 50px;
+}
+div p {
+  font-size: 10px;
+}
+.fa {
+  font-size: 20px;
+}
+
+/* First Navbar Styles */
+
+/* Second Navbar */
+.second-navbar {
+  /* White background */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+  position: relative;
+  z-index: 999;
+  background-color: lavender;
+}
+
+/* Fixed Second Navbar on Scroll */
+.second-navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Content */
+.content {
+  margin-top: 4rem;
+  height: 200vh;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/*
+/* secion start  */
+
+.section-header {
+  margin-bottom: 20px;
+}
+.section-header h2 {
+  font-weight: bold;
+}
+.project-info {
+  background-color: #ffc107;
+  padding: 15px;
+  border-radius: 5px;
+}
+.project-info p {
+  margin: 0;
+  font-weight: bold;
+}
+.work-scope ul {
+  list-style-type: none;
+  padding: 0;
+}
+.work-scope ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.work-scope ul li:before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+}
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* secion end  */
+
+/* FOOTER  SECTION */
+footer {
+  color: black;
+}
+
+footer h6 {
+  color: #ff1818;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer div h6 p {
+  font-size: 15px;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .media img {
+  border-radius: 5px;
+}
+.fot {
+  background-color: lavender;
+}
+/* footer section end  */
+/* ============================================================ */
+.manufacturing-section {
+  background-color: #fff;
+  padding: 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  border-left: 5px solid #ff1010;
+  padding-left: 15px;
+}
+
+.section-subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Section Description */
+.section-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-warning {
+  background: #f11515;
+  border: none;
+  /* color: #fff; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-warning:hover {
+  background: hsl(0, 100%, 58%);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Thumbnail Styling */
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.1);
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Specialization Cards */
+.specialization-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.specialization-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.specialization-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.specialization-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ff1818;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-heading,
+  .section-subheading {
+    text-align: center;
+  }
+
+  .manufacturing-section {
+    padding: 30px 15px;
+  }
+
+  .specialization-card {
+    margin-bottom: 20px;
+  }
+}
+/* General Thumbnail Styling */
+.thumbnail {
+  position: relative;
+  border-color: #ff1717;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the thumbnail */
+  border: 3px solid #ddd; /* Default border for thumbnail */
+  margin-bottom: 20px;
+  width: 100%; /* Ensures the thumbnail is responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Styling for Images Inside Thumbnails */
+.thumbnail img {
+  border-color: #ff1010;
+  width: 100%; /* Makes the image fill the thumbnail container */
+  height: 400px; /* Sets a fixed height for uniform thumbnails */
+  object-fit: cover; /* Ensures the image is cropped to fit the container */
+  border-radius: 8px; /* Rounds the corners of the image */
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover Effect for Thumbnails */
+.thumbnail:hover img {
+  border-color: #ff0a0a;
+  transform: scale(1.1); /* Slight zoom effect */
+  filter: brightness(90%); /* Dims the image slightly */
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px); /* Moves the thumbnail up slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a more prominent shadow */
+  border-color: #f80c0c; /* Changes border color on hover */
+}
+
+/* Specialization Card Images */
+.specialization-card .thumbnail {
+  border-color: #ffd500;
+  height: 150px; /* Sets a smaller height for specialization images */
+}
+
+.specialization-card .thumbnail img {
+  border-color: #ffd500;
+  height: 100%; /* Ensures image fills the thumbnail */
+  object-fit: cover; /* Crops the image to fit perfectly */
+  border-radius: 8px; /* Matches the general thumbnail styling */
+}
